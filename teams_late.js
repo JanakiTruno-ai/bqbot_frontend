@@ -3,7 +3,7 @@ const { AgentApplication, MemoryStorage } = require("@microsoft/agents-hosting")
 const axios = require("axios");
 
 // ✅ Use Cloud Run backend (unauthenticated)
-const BACKEND_API_URL = process.env.BACKEND_API_URL || "https://bot-v2-670869581400.europe-west1.run.app";
+const BACKEND_API_URL = process.env.BACKEND_API_URL || "https://botv1-670869581400.europe-west1.run.app";
 console.log("[DEBUG] BACKEND_API_URL:", BACKEND_API_URL);
 
 const storage = new MemoryStorage();
